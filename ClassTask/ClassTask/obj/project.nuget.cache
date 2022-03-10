@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sgi6+Dw54/+a18wnozVd85TPaZvugpvNOhm4SHSNxhd1fFCZMnMjrVt19OC6nNB+6q+c+yW7ZVNu0cCNYCAMzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asger\\Desktop\\Tasks\\ClassTask\\ClassTask\\ClassTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asger\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
