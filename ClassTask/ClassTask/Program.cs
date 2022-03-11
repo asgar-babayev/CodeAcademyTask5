@@ -36,22 +36,22 @@ namespace ClassTask
             #endregion
 
             #region Task 2
-            //Console.WriteLine("---------------------------------------------------");
-            //Console.WriteLine("Maşın üçün çıxarılan nəticə...");
-            //Car car = new Car(4, 4, "Qara", "BMW", 100, 2, 2.5);
-            //car.PrintCar();
-            //car.GetSpeed();
-            //Console.WriteLine("---------------------------------------------------");
-            //Console.WriteLine("Avtobus üçün çıxarılan nəticə...");
-            //Bus bus = new Bus(6, 20, "Qırmızı", "Daewoo", 120, 4, 2.2);
-            //bus.PrintBus();
-            //bus.GetSpeed();
-            //Console.WriteLine("---------------------------------------------------");
-            //Console.WriteLine("Velosiped üçün çıxarılan nəticə...");
-            //Bicycle bicycle = new Bicycle();
-            //bicycle.PrintBicycle();
-            //bicycle.GetSpeed();
-            //Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Maşın üçün çıxarılan nəticə...");
+            Car car = new Car(4, 4, "Qara", "BMW", 100, 2, 2.5);
+            car.PrintCar();
+            car.GetSpeed();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Avtobus üçün çıxarılan nəticə...");
+            Bus bus = new Bus(6, 20, "Qırmızı", "Daewoo", 120, 4, 2.2);
+            bus.PrintBus();
+            bus.GetSpeed();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Velosiped üçün çıxarılan nəticə...");
+            Bicycle bicycle = new Bicycle(2,1,"Goy","Rambo",30,2);
+            bicycle.PrintBicycle();
+            bicycle.GetSpeed();
+            Console.WriteLine("---------------------------------------------------");
             #endregion
         }
     }
