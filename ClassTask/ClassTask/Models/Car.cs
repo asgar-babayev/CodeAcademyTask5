@@ -8,6 +8,10 @@ namespace ClassTask.Models
     {
         public double motor;
 
+        public Car()
+        {
+            Console.WriteLine("Car yaradıldı");
+        }
         public Car(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime, double motor)
         {
             this.cycle = cycle;

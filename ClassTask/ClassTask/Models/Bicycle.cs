@@ -6,6 +6,10 @@ namespace ClassTask.Models
 {
     class Bicycle : Vehicle
     {
+        public Bicycle()
+        {
+            Console.WriteLine("Bicycle yaradıldı");
+        }
         public Bicycle(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime)
         {
             this.cycle = cycle;

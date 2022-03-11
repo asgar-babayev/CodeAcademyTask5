@@ -15,8 +15,6 @@ namespace ClassTask.Models
         
         public void GetSpeed()
         {
-            //S=v*t
-            //v = S/t
             Console.WriteLine($"Getdiyi suret = {driveWay / driveTime}");
         }
     }
