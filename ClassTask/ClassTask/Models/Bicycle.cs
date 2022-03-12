@@ -10,30 +10,8 @@ namespace ClassTask.Models
         {
             Console.WriteLine("Bicycle yaradıldı");
         }
-        public Bicycle(int cycle)
+        public Bicycle(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime) : base(cycle, passangerCount, color, model, driveWay,driveTime)
         {
-            this.cycle = cycle;
-        }
-        public Bicycle(int cycle, int passangerCount) : this(cycle)
-        {
-            this.passangerCount = passangerCount;
-        }
-        public Bicycle(int cycle, int passangerCount, string color) : this(cycle, passangerCount)
-        {
-            this.color = color;
-        }
-        public Bicycle(int cycle, int passangerCount, string color, string model) : this(cycle, passangerCount, color)
-        {
-            this.model = model;
-        }
-
-        public Bicycle(int cycle, int passangerCount, string color, string model, int driveWay) : this(cycle, passangerCount, color, model)
-        {
-            this.driveWay = driveWay;
-        }
-        public Bicycle(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime) : this(cycle, passangerCount, color, model, driveWay)
-        {
-            this.driveTime = driveTime;
         }
         public void PrintBicycle()
         {

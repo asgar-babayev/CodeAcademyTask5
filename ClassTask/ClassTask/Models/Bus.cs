@@ -12,33 +12,8 @@ namespace ClassTask.Models
         {
             Console.WriteLine("Bus yaradıldı");
         }
-        public Bus(int cycle)
-        {
-            this.cycle = cycle;
-        }
-        public Bus(int cycle, int passangerCount) : this(cycle)
-        {
-            this.passangerCount = passangerCount;
-        }
-        public Bus(int cycle, int passangerCount, string color) : this(cycle, passangerCount)
-        {
-            this.color = color;
-        }
-        public Bus(int cycle, int passangerCount, string color, string model) : this(cycle, passangerCount, color)
-        {
-            this.model = model;
-        }
-
-        public Bus(int cycle, int passangerCount, string color, string model, int driveWay) : this(cycle, passangerCount, color, model)
-        {
-            this.driveWay = driveWay;
-        }
-        public Bus(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime) : this(cycle, passangerCount, color, model, driveWay)
-        {
-            this.driveTime = driveTime;
-        }
-
-        public Bus(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime, double motor) : this(cycle, passangerCount, color, model, driveWay, driveTime)
+        
+        public Bus(int cycle, int passangerCount, string color, string model, int driveWay, int driveTime, double motor) : base(cycle, passangerCount, color, model, driveWay, driveTime)
         {
             this.motor = motor;
         }
